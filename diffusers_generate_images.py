@@ -51,7 +51,7 @@ CLOTHING = [
 
 # clothing or image color palettes, modify to suit your needs
 COLOR_PALETTES = [
-    ""
+    "",
     "reds",
     "oranges",
     "yellows",
