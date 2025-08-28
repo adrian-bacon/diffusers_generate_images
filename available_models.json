@@ -1,0 +1,107 @@
+{
+    "rubb-2-1": {
+        "name": "adrianbacon/realistic-universal-base-build-2.1.0-base",
+        "num_inference_steps": 25,
+        "guidance_scale": 7.5,
+        "native_width": 512,
+        "native_height": 512,
+        "gated_model": false,
+        "cpu_offload": false
+    },
+    "sd-2-1": {
+        "name": "stabilityai/stable-diffusion-2-1",
+        "num_inference_steps": 50,
+        "guidance_scale": 8.0,
+        "native_width": 768,
+        "native_height": 768,
+        "gated_model": false,
+        "cpu_offload": false
+    },
+    "rubb-xl-1-0": {
+        "name": "adrianbacon/realistic-universal-base-build-xl-1.0.0-base",
+        "num_inference_steps": 50,
+        "guidance_scale": 8.0,
+        "native_width": 1024,
+        "native_height": 1024,
+        "gated_model": false,
+        "cpu_offload": false
+    },
+    "sdxl-1-0": {
+        "name": "stabilityai/stable-diffusion-xl-base-1.0",
+        "num_inference_steps": 50,
+        "guidance_scale": 8.0,
+        "native_width": 1024,
+        "native_height": 1024,
+        "gated_model": false,
+        "cpu_offload": false
+    },
+    "sd-3-0": {
+        "name": "stabilityai/stable-diffusion-3-medium-diffusers",
+        "num_inference_steps": 50,
+        "guidance_scale": 4.0,
+        "native_width": 1024,
+        "native_height": 1024,
+        "gated_model": true,
+        "max_sequence_length": 256,
+        "cpu_offload": true
+    },
+    "sd-3-5-medium": {
+        "name": "stabilityai/stable-diffusion-3.5-medium",
+        "num_inference_steps": 40,
+        "guidance_scale": 3.5,
+        "native_width": 1408,
+        "native_height": 1408,
+        "gated_model": true,
+        "max_sequence_length": 256,
+        "cpu_offload": true
+    },
+    "sd-3-5-large": {
+        "name": "stabilityai/stable-diffusion-3.5-large",
+        "num_inference_steps": 40,
+        "guidance_scale": 5.0,
+        "native_width": 1024,
+        "native_height": 1024,
+        "gated_model": true,
+        "max_sequence_length": 256,
+        "cpu_offload": true
+    },
+    "flux-1-dev": {
+        "name": "black-forest-labs/FLUX.1-dev",
+        "num_inference_steps": 30,
+        "guidance_scale": 3.5,
+        "native_width": 1408,
+        "native_height": 1408,
+        "gated_model": true,
+        "max_sequence_length": 512,
+        "cpu_offload": true
+    },
+    "flux-1-schnell": {
+        "name": "black-forest-labs/FLUX.1-schnell",
+        "num_inference_steps": 4,
+        "guidance_scale": 0.0,
+        "native_width": 1408,
+        "native_height": 1408,
+        "gated_model": true,
+        "max_sequence_length": 256,
+        "cpu_offload": true
+    },
+    "flux-1-krea": {
+        "name": "black-forest-labs/FLUX.1-Krea-dev",
+        "num_inference_steps": 30,
+        "guidance_scale": 4.0,
+        "native_width": 1536,
+        "native_height": 1536,
+        "gated_model": true,
+        "max_sequence_length": 512,
+        "cpu_offload": true
+    },
+    "qwen-image": {
+        "name": "Qwen/Qwen-Image",
+        "num_inference_steps": 50,
+        "true_cfg_scale": 4.0,
+        "native_width": 1328,
+        "native_height": 1328,
+        "gated_model": false,
+        "cpu_offload": true
+    }
+}

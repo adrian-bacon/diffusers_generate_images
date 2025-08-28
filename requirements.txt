@@ -1,0 +1,9 @@
+huggingface_hub
+pillow
+torch>=2.0.0
+diffusers
+transformers
+accelerate
+sentencepiece
+protobuf
+compel
